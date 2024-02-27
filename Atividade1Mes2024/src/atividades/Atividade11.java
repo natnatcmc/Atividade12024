@@ -17,5 +17,7 @@ public class Atividade11 {
 	
 	int resultado = (bmaior + bmenor) * altura / 2;
 	System.out.println("A área de um trapézio é:" + resultado);
+	
+	sc.close();
     }
 }

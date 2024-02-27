@@ -14,5 +14,7 @@ public class Atividade3 {
 		
 		int resultado = valor1 + valor2;
 		System.out.println("A soma dos valores é:" + resultado);
+		 
+	sc.close();
 	}
 }

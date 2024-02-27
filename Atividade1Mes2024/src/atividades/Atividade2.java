@@ -13,6 +13,8 @@ public class Atividade2 {
 		
 		int resultado = valor - 1;
 		System.out.println("O numero antecessor é: " + resultado);
+		
+		sc.close();
 }
 	}
 

@@ -15,5 +15,7 @@ public class Atividade8 {
 	
 	int resultado = base * altura / 2;
 	System.out.println("A área do triângulo é:" + resultado);
+	
+	sc.close();
     }
 }

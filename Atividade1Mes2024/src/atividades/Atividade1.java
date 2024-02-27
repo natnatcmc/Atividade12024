@@ -12,5 +12,8 @@ public class Atividade1 {
 			
 			
 		int resultado = valor + 1;
-		System.out.println("O numero sucessor é: " + resultado);}
+		System.out.println("O numero sucessor é: " + resultado);
+		
+		sc.close();
+		}
 }

@@ -14,5 +14,7 @@ public class Atividade10 {
 	
 	int resultado = dmaior + dmenor / 2;
 	System.out.println("A área de um losango é:" + resultado);
+	
+	sc.close();
     }
 }

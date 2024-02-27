@@ -11,5 +11,7 @@ public class Atividade9 {
 	
 	int resultado = lado* 2 ;
 	System.out.println("A área do quadrado é:" + resultado);
+	
+	sc.close();
     }
 }

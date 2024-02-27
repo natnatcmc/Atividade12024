@@ -8,7 +8,7 @@ public class Atividade12 {
 	Scanner sc = new Scanner(System.in);
 	
 	System.out.println("Digite o raio do círculo:");
-	int raio= sc.nextInt();
+	float raio= sc.nextFloat();
 	
 	
 	float pi = 3.14f;
@@ -16,5 +16,7 @@ public class Atividade12 {
 	
 	float resultado = pi * (raio * 2);
 	System.out.println("A área do círculo é: " + resultado);
+	
+	sc.close();
     }
 }

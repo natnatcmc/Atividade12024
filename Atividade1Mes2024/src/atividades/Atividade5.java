@@ -15,6 +15,8 @@ public class Atividade5 {
 	
 	int resultado = valor1 * valor2;
 	System.out.println("A multiplicação dos valores é:" + resultado);
+	
+	sc.close();
     }
 }
 

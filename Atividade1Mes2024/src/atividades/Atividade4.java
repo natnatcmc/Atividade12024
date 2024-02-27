@@ -15,6 +15,8 @@ public class Atividade4 {
 		
 		int resultado = valor1 - valor2;
 		System.out.println("A subtração dos valores é:" + resultado);
+		
+		sc.close();
 	}
 }
 

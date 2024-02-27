@@ -8,13 +8,15 @@ public class Atividade6 {
 	Scanner sc = new Scanner(System.in);
 	
 	System.out.println("Digite um valor:");
-	int valor1= sc.nextInt();
+	float valor1= sc.nextFloat();
 	
 	System.out.println("Digite um valor:");
-	int valor2 = sc.nextInt();
+	float valor2 = sc.nextFloat();
 	
-	int resultado = valor1 / valor2;
+	float resultado = valor1 / valor2;
 	System.out.println("A divisão dos valores é:" + resultado);
+	
+	sc.close();
     }
 }
 

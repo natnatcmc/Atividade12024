@@ -15,7 +15,9 @@ public class Atividade7 {
 	int altura = sc.nextInt();
 	
 	int resultado = base * altura;
-	System.out.println("A área do retângulo:" + resultado);
+	System.out.println("A área do retângulo:" + resultado + "m²");
+	
+	sc.close();
     }
 }
 
